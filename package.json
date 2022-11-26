@@ -3,7 +3,7 @@
   "name": "node-dice",
   "version": "1.0.0",
   "description": "dice emulator",
-  "main": "index.js",
+  "main": "./lib/roll.js",
   "type": "module", 
   "scripts": {
     "test": "roll-dice --sides=10 --dice=2 --rolls=3"
