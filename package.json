@@ -1,0 +1,24 @@
+{
+  "bin": {"roll-dice": "./bin/cli.js"},
+  "name": "node-dice",
+  "version": "1.0.0",
+  "description": "dice emulator",
+  "main": "index.js",
+  "type": "module", 
+  "scripts": {
+    "test": "roll-dice --sides=10 --dice=2 --rolls=3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-tamerosman3.git"
+  },
+  "author": "tamerosman3",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-tamerosman3/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-tamerosman3#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
